@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TrippleHighDee Enterprise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<!-- Navigation -->
+	<nav>
+
+		<ul>
+			<li class=""><a href="#">TrippleHighDee Enterprise</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="destinations.html">Destinations</a></li>
+		</ul>
+	</nav>
+
+	<!-- HEADER/ HERO -->
+
+	<header>
+		<h1 class="Enterprise">TrippleHighDee Enterprise</h1>
+
+		<!-- Desktop text -->
+
+		<p class="desktop-text">At TrippleHighDee Enterprise, we make your travel dreams come true. Whether it's booking flights, obtaining visas,<br> planning vacations, or studying abroad, our expert teams ensures a smooth, hassel-free experience. Travel smarter,<br> stress less and enjoy every moment of your journey with us. </p>
+
+		<!-- Mobile text -->
+		<p>
+			Travel easily with TrippleHighDee Enterprise. Flights, Visas, and vacations made simple.
+		</p>
+		<a href="contact.html" class="btn"><button class="trip">Book a Trip</button></a>
+	</header>
+
+
+<footer>
+	<p class="footer">@ 2024 TrippleHighDee Enterprise. All rights reserved.</p>
+	<script>
+		const toggle = document.getElementById("menu-toggle")
+		const links = document.getElementById("nav-links")
+
+		toggle.addEventListener("click",() => {
+			links.classList.toggle("active");
+			toggle.textContent = links.classList.contains("active") ? "×" : "☰";
+		});
+	</script>
+</footer>
+</body>
+</html>
